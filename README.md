@@ -29,6 +29,8 @@ const DecoratorManger = require('decorator-manager')
   - name: 当前方法名
   - config: 该方法的配置，按参数顺序为数组顺序
   - methodConfigs: 当前类的全部装饰了装饰器的方法配置
+  
+### Method `getTarget(targetId: string)`
 
 ### Property `get configs: Object`
 
