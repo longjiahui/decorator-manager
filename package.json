@@ -1,0 +1,13 @@
+{
+  "name": "decorator-manager",
+  "version": "1.0.4",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Anfo",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^7.0.2"
+  }
+}
