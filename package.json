@@ -1,12 +1,16 @@
 {
   "name": "decorator-manager",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "src/index.js",
   "scripts": {},
   "keywords": [],
   "author": "Anfo",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longjiahui/decorator-manager.git"
+  },
   "dependencies": {
     "uuid": "^7.0.2"
   }
