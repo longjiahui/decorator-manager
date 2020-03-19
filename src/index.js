@@ -105,10 +105,14 @@ class DecoratorManager{
             let methodConfigs = config[methodConfigsKey];
             if(methodConfigs){
                 this._forEachConfigs(methodConfigs, (methodConfig, name, methodConfigs) => {
-                    methodHandler(this.getTarget(targetId), name, methodConfig, methodConfigs);
+                    if(typeof methodHandler === 'function'){
+                        methodHandler(this.getTarget(targetId), name, methodConfig, methodConfigs);
+                    }
                 });
             } 
-            targetHandler(this.getTarget(targetId), config, configs);
+            if(typeof targetHandler === 'function'){
+                targetHandler(this.getTarget(targetId), config, configs);
+            }
         });
     }
     _forEachConfigs(configs, handler){
