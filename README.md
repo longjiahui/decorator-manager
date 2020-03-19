@@ -11,10 +11,9 @@ const DecoratorManger = require('decorator-manager')
 
 ### Constructor `DecoratorManager()`
 
-### Method `register(decoratorName: string, options: Object)`
+### Method `register(decoratorName: string)`
 
-- options
-  - hasArgs: 默认true,表示注册的decorator是否具有参数
+- 注册后的decorator可以通过参数使用，也可以不通过参数使用
 
 ### Method `forEach(targetHandler: Function, methodHandler: Function)`
 
@@ -45,7 +44,7 @@ const DecoratorManger = require('decorator-manager')
 let manager = new DecoratorManager();
 
 manager.register('router');
-manager.register('loginCheck', {hasArgs: false});
+manager.register('loginCheck');
 let {router, loginCheck} = manager.decorators;
 
 @router('a', 'b')
