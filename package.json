@@ -1,6 +1,6 @@
 {
-  "name": "decorator-manager",
-  "version": "1.0.10",
+  "name": "@anfo/decorator-manager",
+  "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
