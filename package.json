@@ -14,7 +14,7 @@
     "url": "https://github.com/longjiahui/decorator-manager.git"
   },
   "dependencies": {
-    "uuid": "^7.0.2"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
